@@ -75,7 +75,7 @@
         <div class="about__container container">
             <div class="button-action">
                 <h3 class="about__title">Sobre mi</h3>
-                <button>+</button>
+                <button class="show-button" id="show-about">+</button>
             </div>
             <hr>
             <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae?</p>
@@ -87,7 +87,7 @@
     <section class="skills container" id="skills">
         <div class="button-action">
             <h3 class="skills__title">Skills</h3>
-            <button>+</button>
+            <button class="show-button" id="show-skills">+</button>
         </div>
         <hr>
             <div class="skills__line">
@@ -126,7 +126,7 @@
     <section class="academic container" id="formacion">
         <div class="button-action">
             <h3 class="academic__title" >Formación académica</h3>
-            <button>+</button>
+            <button class="show-button" id="show-academic">+</button>
         </div>
         <hr>
         <div class="academic__courses">
@@ -153,7 +153,7 @@
     <section class="experience container" id="xp">
         <div class="button-action">
             <h3 class="experience__section__title" >Proyectos</h3>
-            <button>+</button>
+            <button class="show-button" id="show-projects">+</button>
         </div>
         <hr>
         <div class="experience__box">
@@ -185,16 +185,21 @@
     <section class="contact container">
         <div class="button-action">
             <h3 class="contact__title" id="contact">Contacto</h3>
-            <button>+</button>
+            <button class="show-button" id="show-contact">+</button>
         </div>
-        
-        
         <hr>
-        <ul class="contact__links">
-            <li class="contact__links__item"><a target="_blank" href="https://github.com/illescas-sergio/illescas-sergio">Github<img src="./assets/arrow.png"></a></li>
-            <li class="contact__links__item"><a target="_blank" href="https://www.linkedin.com/in/sergio-illescas-fullstack/">Linkedin<img src="./assets/arrow.png"></a></li>
-            <li class="contact__links__item"><a target="_blank" href="./assets/CV/CV_Sergio Illescas_ES.pdf">Currículo<img src="./assets/arrow.png"></a></li>
-        </ul>
+        <div class="contact__content">
+            <ul class="contact__links">
+                <li class="contact__links__item"><i class="fa-solid fa-location-dot"></i> Walker, Tx.</li>
+                <li class="contact__links__item"><i class="fa-regular fa-envelope"></i> Kurt.pena@example.com</li>
+                <li class="contact__links__item"><i class="fa-solid fa-phone"></i> 555-5555</li>
+            </ul>
+            <ul class="contact__links">
+                <li class="contact__links__item"><a target="_blank" href="https://github.com">Github<img src="./assets/arrow.png"></a></li>
+                <li class="contact__links__item"><a target="_blank" href="https://www.linkedin.com">Linkedin<img src="./assets/arrow.png"></a></li>
+                <li class="contact__links__item"><a target="_blank" href="#">Currículo<img src="./assets/arrow.png"></a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- footer -->

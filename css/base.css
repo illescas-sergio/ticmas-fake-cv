@@ -37,3 +37,7 @@ ol, ul,li {
    border: none;
    background-color: transparent;
 }
+
+.toHideOrShow {
+    display: none;
+}

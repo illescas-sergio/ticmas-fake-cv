@@ -10,6 +10,10 @@
     line-height: 38px;
 }
 
+.contact__content {
+    display: flex;
+}
+
 .contact__links {
     margin: 1.5rem auto;
     display: flex;
