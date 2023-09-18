@@ -1,0 +1,24 @@
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+
+.experience__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 406px;
+    min-width: calc(100% - 360px - 1rem);
+    width: calc(100% - 22.5rem - 1rem);
+    overflow: hidden;
+}
+
+.experience__img > img {
+    object-fit: none;
+}

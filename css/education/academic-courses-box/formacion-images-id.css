@@ -1,0 +1,11 @@
+#formacion-02 {
+    background: url("https://placehold.co/700x500") no-repeat center / cover;
+    height: 100%;
+    width: 100%;
+}
+
+#formacion-03 {
+    background: url("https://placehold.co/700x500") no-repeat center / contain;
+    height: 100%;
+    width: 100%;
+}

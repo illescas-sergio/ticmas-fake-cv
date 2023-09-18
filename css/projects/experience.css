@@ -1,0 +1,11 @@
+.experience {
+    color: var(--color-de-fuente);
+    padding-top: 3.125rem;
+    padding-bottom: 5rem;
+}
+
+.experience__section__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}

@@ -1,0 +1,6 @@
+.about {
+    align-items: center;
+    color: var(--color-de-fuente);
+    display: flex;
+    margin-top: 1.5rem;
+}
