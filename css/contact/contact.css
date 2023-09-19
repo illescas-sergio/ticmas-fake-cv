@@ -2,6 +2,7 @@
     color: var(--color-de-fuente);
     padding-top: 3.125rem;
     padding-bottom: 5rem;
+    
 }
 
 .contact__title {
@@ -12,6 +13,7 @@
 
 .contact__content {
     display: flex;
+    background-color: var(--color-fondo-about);
 }
 
 .contact__links {

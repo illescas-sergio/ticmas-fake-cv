@@ -4,9 +4,9 @@
     width: 100%;
 }
 
-.about__container:last-child {
+/* .about__container:last-child {
     margin-bottom: 5rem;
-}
+} */
 
 .about__title {
     font-weight: 700;
@@ -18,5 +18,4 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    width: calc(100% - 22.5rem - 1rem);
 }

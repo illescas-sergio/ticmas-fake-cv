@@ -1,7 +1,7 @@
 .academic {
     color: var(--color-de-fuente);
     padding-top: 3.125rem;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
 }
 
 .academic__title {

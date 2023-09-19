@@ -9,7 +9,7 @@ body {
     width: 100vw;
     box-sizing: border-box;
     background-color: var(--color-blanco) ;
-    font-family: 'Raleway';
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -36,8 +36,9 @@ ol, ul,li {
 .button-action > button{
    border: none;
    background-color: transparent;
+   font-size: large;
 }
 
-.toHideOrShow {
-    display: none;
-}
+.button-action > button:hover{
+    cursor: pointer;
+ }

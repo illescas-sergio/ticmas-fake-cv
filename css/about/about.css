@@ -2,5 +2,6 @@
     align-items: center;
     color: var(--color-de-fuente);
     display: flex;
+    text-align: justify;
     margin-top: 1.5rem;
 }

@@ -6,7 +6,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/4018f21b4f.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./css/reset.css">
@@ -43,6 +44,8 @@
 
     <link rel="stylesheet" href="./css/footer/footer.css">
 
+    <link rel="stylesheet" href="./css/extras.css">
+
     <title>CV - Ticmas</title>
 
 </head>
@@ -71,15 +74,17 @@
     </section>
 
     <!-- about -->
-    <section class="about" id="sobre-mi">
-        <div class="about__container container">
+    <section class="about container" id="sobre-mi">
+        <div class="about__container ">
             <div class="button-action">
                 <h3 class="about__title">Sobre mi</h3>
-                <button class="show-button" id="show-about">+</button>
+                <button class="show-button" id="about">+</button>
             </div>
             <hr>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae?</p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae?</p>
+            <div class="about-content hide">
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae?</p>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident iusto praesentium dignissimos dolore dolor voluptatum quas atque dicta error, nihil debitis suscipit placeat. Harum odit natus modi inventore illum quae?</p>
+            </div>
         </div>
     </section>
 
@@ -87,10 +92,10 @@
     <section class="skills container" id="skills">
         <div class="button-action">
             <h3 class="skills__title">Skills</h3>
-            <button class="show-button" id="show-skills">+</button>
+            <button class="show-button" id="skills">+</button>
         </div>
         <hr>
-            <div class="skills__line">
+            <div class="skills__line hide">
                 <div class="skills__box">
                     <ul class="skills__box__list">
                         <li class="skills__img"><img src="./assets/htlm.png"></li>
@@ -126,10 +131,10 @@
     <section class="academic container" id="formacion">
         <div class="button-action">
             <h3 class="academic__title" >Formación académica</h3>
-            <button class="show-button" id="show-academic">+</button>
+            <button class="show-button" id="academic">+</button>
         </div>
         <hr>
-        <div class="academic__courses">
+        <div class="academic__courses hide">
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <li class="academic__courses__item__img"><div id="formacion-03"></div></li>
@@ -153,10 +158,10 @@
     <section class="experience container" id="xp">
         <div class="button-action">
             <h3 class="experience__section__title" >Proyectos</h3>
-            <button class="show-button" id="show-projects">+</button>
+            <button class="show-button" id="projects">+</button>
         </div>
         <hr>
-        <div class="experience__box">
+        <div class="experience__box hide">
             <div class="experience__img" id="project-01"><img src="https://placehold.co/1200x400" alt=""></div>
             <div class="experience__info">
                 <h2 class="experience__title">Proyecto 1</h2>
@@ -168,7 +173,7 @@
             </div>
         </div>  
 
-        <div class="experience__box">
+        <div class="experience__box hide">
             <div class="experience__img" id="project-02"><img src="https://placehold.co/1200x400" alt=""></div>
             <div class="experience__info">
                 <h2 class="experience__title">Proyecto 2</h2>
@@ -182,10 +187,9 @@
     </section> 
     
     <!-- contact -->
-    <section class="contact container">
-        <div class="button-action">
+    <section class="contact" id="contact">
+        <div class="button-action container">
             <h3 class="contact__title" id="contact">Contacto</h3>
-            <button class="show-button" id="show-contact">+</button>
         </div>
         <hr>
         <div class="contact__content">
