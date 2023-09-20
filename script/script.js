@@ -3,8 +3,9 @@ const elements = {
     aboutContent : document.querySelector('.about-content'),
     skillsContent : document.querySelector('.skills__line'),
     academicContent : document.querySelector('.academic__courses'),
-    xpContent : document.querySelector('.experience__box')
+    xpContent : document.querySelectorAll('.experience__box')
 }
+
 const areas = {
     "about": elements.aboutContent,
     "skills": elements.skillsContent,
@@ -13,6 +14,7 @@ const areas = {
 }
 
 function hideOrShowSomething(e){
+    //continuar Esto manejando el array de proyectos!!!
     let pressed = e.target.id;
     let area = areas[pressed];
     area.classList.toggle("hide")
