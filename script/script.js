@@ -1,7 +1,3 @@
-console.log("hola")
-
-// let buttons = document.querySelectorAll('.show-button');
-// buttons.forEach(el => el.addEventListener('click'))
 
 const elements = {
     aboutContent : document.querySelector('.about-content'),
@@ -16,8 +12,6 @@ const areas = {
     "projects": elements.xpContent
 }
 
-
-
 function hideOrShowSomething(e){
     let pressed = e.target.id;
     let area = areas[pressed];
@@ -26,20 +20,7 @@ function hideOrShowSomething(e){
     trigger.classList.toggle("active");
 }
 
-function modifyButtonText(e){
-    let button = e.target;
-    // if(button.classList.includes("active")){
-    //     button.innerHTML = "x";
-    // } else {
-    //     button.innerHTML = "+";
-    // }
-}
-
 let sections = document.querySelectorAll('section');
 sections.forEach(el => el.addEventListener('click', (e) => {
-    
-    // console.log(e.target.id);
-    // modifyButtonText(e)
     hideOrShowSomething(e)
-
 }));
