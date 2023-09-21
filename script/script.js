@@ -1,4 +1,5 @@
 
+
 const elements = {
     aboutContent : document.querySelector('.about-content'),
     skillsContent : document.querySelector('.skills__line'),
@@ -10,7 +11,7 @@ const areas = {
     "about": elements.aboutContent,
     "skills": elements.skillsContent,
     "academic": elements.academicContent,
-    "projects": elements.xpContent
+    "projects": elements.xpContent,
 }
 
 function hideOrShowSomething(e){
@@ -24,10 +25,9 @@ function hideOrShowSomething(e){
             let trigger = e.target;
             trigger.classList.toggle("active");
         });
-        return
+    } else {
+        area.classList.toggle("hide");
     }
-    
-    area.classList.toggle("hide")
     let trigger = e.target;
     trigger.classList.toggle("active");
 }
