@@ -14,9 +14,19 @@ const areas = {
 }
 
 function hideOrShowSomething(e){
-    //continuar Esto manejando el array de proyectos!!!
+    
     let pressed = e.target.id;
     let area = areas[pressed];
+    
+    if(area.length){
+        area.forEach(el => {
+            el.classList.toggle("hide")
+            let trigger = e.target;
+            trigger.classList.toggle("active");
+        });
+        return
+    }
+    
     area.classList.toggle("hide")
     let trigger = e.target;
     trigger.classList.toggle("active");
